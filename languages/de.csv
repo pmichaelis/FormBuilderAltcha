@@ -1,0 +1,36 @@
+en,de,description,file,hash
+FormBuilder ALTCHA,FormBuilder ALTCHA,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,5e0336dfe5821a47bb5289a0c88ad921
+"ALTCHA proof-of-work spam protection for FormBuilder, can be enabled per form under Actions > Filter spam.","ALTCHA-Spam-Schutz (Proof-of-Work) für FormBuilder, aktivierbar pro Formular unter Aktionen > Spam filtern.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,4ac074ad5a79ffc78c84b1b2587b0ee3
+"FormBuilderAltcha: Dependencies are missing, please run ""composer install"" in the module directory.","FormBuilderAltcha: Abhängigkeiten fehlen, bitte „composer install“ im Modulordner ausführen.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,ea67af4855f5b601730b2aef7a81280e
+ALTCHA: solution missing,ALTCHA: Lösung fehlt,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,7e9bf764957b28d944d71787ecde05c2
+ALTCHA: invalid solution,ALTCHA: Lösung ungültig,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,370719fd2f03fc6cbe1f6bd5e1b58ebc
+ALTCHA: challenge expired,ALTCHA: Aufgabe abgelaufen,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,beb51d7b24f363e8ef332066d6c93021
+ALTCHA: solution already used,ALTCHA: Lösung bereits verwendet,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,2c9e7f6c7e219f7daa1e955bcf5f453d
+en,de,widget-language,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,df72f6036f40fe80a28d4454e9ad05de
+ALTCHA: simulated failure,ALTCHA: simulierter Fehler,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,0d795f5f6c65101a414688cb29db5d5f
+simulation,Simulation,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,9e083ec666c9f3db044bb7c381640227
+The spam check failed. Please confirm the verification above the submit button and submit the form again.,Die Spam-Prüfung ist fehlgeschlagen. Bitte bestätigen Sie die Prüfung über dem Absenden-Button und senden Sie das Formular erneut ab.,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,4b87b634da25016183eab5f11d614cbf
+ALTCHA,ALTCHA,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,fcda5777b9d8e8096599327ee6eea1c8
+"Before submitting, the browser invisibly solves a small computational challenge. Runs entirely on this server, without cookies and without third parties.","Der Browser löst vor dem Absenden unsichtbar eine kleine Rechenaufgabe. Läuft vollständig auf diesem Server, ohne Cookies und ohne Drittanbieter.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,dd35fb11c917f09769bc3827125e0ddf
+Enable ALTCHA,ALTCHA aktivieren,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,7209a9456d9e285abf64130c42d834cf
+Protect submissions with ALTCHA,Einsendungen mit ALTCHA schützen,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,096418adffc4dc4abb79be1317b41a41
+"If the check fails, the submitter always gets an error message and can try again.","Schlägt die Prüfung fehl, bekommt der Absender immer eine Fehlermeldung und kann es erneut versuchen.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,0759cfa94ebee497d0db28efd0f5a56e
+Difficulty,Schwierigkeit,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,7b29ca96ada2afa3aadbcf55cd61a1ed
+Low (approx. 0.2 s),"Niedrig (ca. 0,2 s)",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,fdc537886001629796798f3de43747b5
+Medium (approx. 0.5 s),"Mittel (ca. 0,5 s)",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,37cfa2b62fad4ac925eab04e66e1bff4
+High (approx. 2 s),Hoch (ca. 2 s),,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,1e7d19ac7bb878ea9b081df69a5f8f1a
+"Computing time on a current computer, about 3 to 5 times longer on older smartphones. With the checkbox display, the computation runs in the background while the form is being filled in.","Rechenzeit auf einem aktuellen Rechner, auf älteren Smartphones etwa 3- bis 5-mal länger. Bei der Darstellung als Checkbox läuft die Berechnung im Hintergrund, während das Formular ausgefüllt wird.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,6fd09b7c279d381cc116b4c5e2cc168a
+Display,Darstellung,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,b9987a246a537f4fe86f1f2e3d10dbdb
+Checkbox above the submit button (computes from the first input),Checkbox über dem Absenden-Button (rechnet ab der ersten Eingabe),,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,6bafc3e377c385b21b837fb13e25966f
+Popup on submit (computes on submit only),Einblendung beim Absenden (rechnet erst beim Absenden),,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,b641c7f5409f134c3946f63c594e0e90
+Widget language,Sprache des Widgets,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,30aa5dd79da86d87720a56d7885e6f67
+"ISO code, e.g. de or en. Leave blank to use the language of the current page.","ISO-Code, z.B. de oder en. Leer lassen, um die Sprache der aktuellen Seite zu verwenden.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,c997c72c5a6d99d6fe7cfcf1d17724d7
+Log failed checks,Fehlgeschlagene Prüfungen protokollieren,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,9e3bc15e8133136cb72d328570c010ae
+Writes form and reason to Setup > Logs > form-builder-altcha.,Schreibt Formular und Grund nach Setup > Logs > form-builder-altcha.,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,a2a8cac987a7800d76d4c5721741d80d
+Simulate failure (test mode),Fehler simulieren (Testmodus),,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,fcbca13497cd64a61fc729d4a5220a01
+"Tests the form behavior and the log without a real spam attack. Only applies to logged-in users with FormBuilder permission, visitors are not affected.","Testet das Verhalten des Formulars und das Log ohne echten Spam-Angriff. Gilt nur für eingeloggte Nutzer mit FormBuilder-Rechten, Besucher sind nicht betroffen.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,ede6415f531292062903d8014d2d737b
+Off,Aus,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,d15305d7a4e34e02489c74a5ef542f36
+"Widget error (mockError, as in the ALTCHA playground)","Widget-Fehler (mockError, wie im ALTCHA-Playground)",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,2bd293d373da709e778cb83c0e4ed55d
+Server rejects the solution,Server lehnt die Lösung ab,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,919b8812b115c961ccd559ffc031c60e
+"With “Popup on submit”, a widget error prevents submitting entirely; use “Server rejects the solution” to test the error message and the log.","Bei „Einblendung beim Absenden“ verhindert ein Widget-Fehler das Absenden ganz. Um Fehlermeldung und Log zu testen, dann „Server lehnt die Lösung ab“ verwenden.",,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,edf8308e48799f2c32da5c84080d4c5d
+test mode active,Testmodus aktiv,,site/modules/FormBuilderAltcha/FormBuilderAltcha.module.php,f72382a9c7a5db9fcf29f0a1d2f3a81f

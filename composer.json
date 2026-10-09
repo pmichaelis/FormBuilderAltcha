@@ -1,0 +1,27 @@
+{
+  "name": "pmichaelis/formbuilder-altcha",
+  "description": "ALTCHA proof-of-work spam protection for ProcessWire FormBuilder",
+  "type": "pw-module",
+  "keywords": [
+    "processwire",
+    "formbuilder",
+    "altcha",
+    "spam",
+    "captcha"
+  ],
+  "homepage": "https://github.com/pmichaelis/FormBuilderAltcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philipp Michaelis",
+      "homepage": "https://github.com/pmichaelis"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "altcha-org/altcha": "^2.3"
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
